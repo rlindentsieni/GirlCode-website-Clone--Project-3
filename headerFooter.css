@@ -1,0 +1,141 @@
+.Header {
+    padding: 0 85px;
+    margin: 0;
+}
+.headPart{
+    
+    display: flex;
+    height:40px;
+    flex-flow: row;
+    padding: 10px 0;
+    gap:640px;
+}
+.logo{
+    
+    width: fit-content;
+    height: fit-content;
+
+}
+.logo a img{
+    width: 180px;
+    height: 37px;
+}
+.otherLinks{
+
+    width: fit-content;
+    height: fit-content;
+    margin-top: 10px;
+    
+}
+.otherLinks nav ul{
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: fit-content;
+    width: fit-content;
+}
+.otherLinks nav ul li{
+
+    display: inline-block;
+    margin-left: 15px;
+}
+.otherLinks nav ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    font-weight: bolder;
+}
+.otherLinks nav ul li a:hover{
+    text-decoration: none;
+    color: #e94154;
+}
+
+
+
+footer{
+    background-color: #e94154;
+    padding: 3% 5%;
+    
+}
+.footContainer{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    color:white;
+    
+}
+.footnav h4{
+    font-weight: bold;
+    margin-top: 0;
+}
+.footnav nav{
+    padding: 0;
+    
+    
+}
+.footnav nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    line-height: 25px;
+    width: 80%;
+    
+}
+.footnav nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+}
+.footrow{
+    width: 420px;
+}
+.footrow1 a img{
+    width:175px;
+    height: fit-content;
+}
+.footrow1 .Copyrite{
+    font-weight: bolder;
+}
+.footSupport{
+    
+    width: 150px;   
+}
+.footCompany  ,.footGInvolved{
+    
+    width: 200px; 
+}
+.footMedia{
+    width: 350px;
+    padding: 25px 0;
+}
+.mediaLogos{
+   
+    margin: 10px 0;
+    
+}
+.mediaLogos ul{
+    
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.mediaLogos ul li{
+    
+    display: inline-block;
+    margin-right: 20px;
+}
+.mediaLogos ul li a img{
+    
+    width: 30px;
+    height: 30px;
+    
+}
+.footMedia button{
+    width: 300px;
+    height: 60px;
+    background-color: white;
+    color: #e94154;
+    font-weight: bolder;
+    border: none;
+    font-size: x-large;
+}

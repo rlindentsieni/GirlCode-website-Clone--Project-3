@@ -1,0 +1,24 @@
+Colors:
+Header:over-Picture:#ececec/#de8c98
+nav : black
+nav hover: #e94154
+Footer:Red>#e94154
+	Text>#e94154
+	>
+Body: White>#ffffff
+Behind Donor Logos: Grey>#dddddd
+Grey-Background:#ececec
+	>
+Send:
+Button:>#e94154
+Light-Grey:>#f5f5f5
+Dark-Grey:>#ededed
+
+Fonts:
+
+Footer:
+Header/nav:
+Body:Coolvetica Bold
+Headings:
+Buttons:
+

@@ -1,0 +1,353 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #212529;
+}
+
+.Header {
+    padding: 0 85px;
+    margin: 0;
+}
+.headPart{
+    
+    display: flex;
+    height: 40px;
+    flex-flow: row;
+    padding: 10px 0;
+    gap:640px;
+}
+.logo{
+    
+    width: fit-content;
+    height: fit-content;
+
+}
+.logo a img{
+    width: 180px;
+    height: 37px;
+}
+.otherLinks{
+
+    width: fit-content;
+    height: fit-content;
+    margin-top: 10px;
+    
+}
+.otherLinks nav ul{
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: fit-content;
+    width: fit-content;
+}
+.otherLinks nav ul li{
+
+    display: inline-block;
+    margin-left: 15px;
+}
+.otherLinks nav ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    font-weight: bolder;
+}
+.otherLinks nav ul li a:hover{
+    text-decoration: none;
+    color: #e94154;
+}
+/*-------------------------------Intro Part--------------------------------------------*/
+.girlsBack{
+    border: 1px solid white;
+    background-image: url(Girlcode-Saturday-74-min-1.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height:35vh;
+}
+.toRed{
+    border: 1px solid #dddddd;
+    width: 100%;
+    height:35vh;
+    background-color: #e94154;
+    opacity: 0.5;
+}
+.gText{
+    
+    width: 45%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+
+}
+.girlsBack h2{
+    font-size: 38px;
+    margin-top: 90px;
+    margin-bottom: 20px;
+}
+.girlsBack p {
+    margin: 0;
+    font-size: 16px;
+    width: 100%;
+}
+.doubleBlocs{
+    padding: 0 25%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 5% 0;
+}
+.doubleBlocs h3{
+    margin-top: 0;
+}
+.doubleBlocs p{
+    margin-top: 3%;
+}
+.doubleBlocs button{
+    background-color: #e94154;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius:10px ;
+}
+.BlockA , .BlockB{
+    
+    width: 300px;
+    padding: 15px 25px;
+    border-radius: 20px;
+    border: 5px solid #dddddd;
+    text-align: center;
+}
+
+hr{
+    width: 75%;
+    margin: 0 15%;
+    height: 1px;
+    background-color: black;
+}
+/*----------------------------------------------------------------------------------------------*/
+.Address {
+    margin: 5% 0;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+.PhysicalAddr{
+    margin: 0 15%;
+    color: #212529;
+    width: 50%;
+}
+.Atext{
+    margin: 25px;
+}
+.Atext h3{
+    font-size: 30px;
+    margin: 0;
+}
+.Atext h4{
+    font-size: 25px;
+    margin: 0;
+}
+.Alogos{
+    margin-left:20px ;
+}
+.location{
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+}
+.location p{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.email{
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+}
+.email p{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.phone{
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+}
+
+.phone p{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.phone .Img img{
+    transform: rotate(3.142rad);    
+}
+.Img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #dddddd; 
+    
+}
+.Img img{
+    transform: translate(25%,25%);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+
+
+/*----------------------------------------------------------------------------------------------*/
+.Interested{
+    padding: 3% 32%;
+}
+.InterestBox{
+    background-color: #f5f5f5;
+    width: 100%;
+    height: auto;
+    padding: 5px 2px;
+}
+.Itext{
+    text-align: center;
+
+}
+.Itext h3{
+    font-size: 35px;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+.Itext p{
+    margin-top: 0;
+}
+.Form{
+    padding: 3%;
+}
+
+.Form label{
+    font-size: 12px;
+    
+}
+.Form input{
+    width: 100%;
+    height: 50px;
+    margin: 3% 0;
+    border-radius: 5px;
+}
+.sendSec{
+    width: 100%;
+    height: 65px;
+    background-color: #ededed;
+    position: relative;
+    
+}
+.sendSec button{
+    background-color: #e94154;
+    color: white;
+    border: none;
+    font-weight:bold ;
+    padding: 5px 10px;
+    font-size: larger;
+    border-radius: 5px;
+    
+    margin-top: 15px;
+    margin-left: 45%;
+    
+}
+
+footer{
+    background-color: #e94154;
+    padding: 3% 5%;
+    
+}
+.footContainer{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    color:white;
+    
+}
+.footnav h4{
+    font-weight: bold;
+    margin-top: 0;
+}
+.footnav nav{
+    padding: 0;
+    
+    
+}
+.footnav nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    line-height: 25px;
+    width: 80%;
+    
+}
+.footnav nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+}
+.footrow{
+    width: 420px;
+}
+.footrow1 a img{
+    width:175px;
+    height: fit-content;
+}
+.footrow1 .Copyrite{
+    font-weight: bolder;
+}
+.footSupport{
+    
+    width: 150px;   
+}
+.footCompany  ,.footGInvolved{
+    
+    width: 200px; 
+}
+.footMedia{
+    width: 350px;
+    padding: 25px 0;
+}
+.mediaLogos{
+   
+    margin: 10px 0;
+    
+}
+.mediaLogos ul{
+    
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.mediaLogos ul li{
+    
+    display: inline-block;
+    margin-right: 20px;
+}
+.mediaLogos ul li a img{
+    
+    width: 30px;
+    height: 30px;
+    
+}
+.footMedia button{
+    width: 300px;
+    height: 60px;
+    background-color: white;
+    color: #e94154;
+    font-weight: bolder;
+    border: none;
+    font-size: x-large;
+}
+
+
+

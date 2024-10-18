@@ -1,0 +1,228 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: #212529;
+    font-family: Inter, Roboto Slab, sans-serif;
+}
+.Header {
+    padding: 0 85px;
+    margin: 0;
+}
+.headPart{
+    
+    display: flex;
+    height:40px;
+    flex-flow: row;
+    padding: 10px 0;
+    gap:640px;
+}
+.logo{
+    
+    width: fit-content;
+    height: fit-content;
+
+}
+.logo a img{
+    width: 180px;
+    height: 37px;
+}
+.otherLinks{
+
+    width: fit-content;
+    height: fit-content;
+    margin-top: 10px;
+    
+}
+.otherLinks nav ul{
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: fit-content;
+    width: fit-content;
+}
+.otherLinks nav ul li{
+
+    display: inline-block;
+    margin-left: 15px;
+}
+.otherLinks nav ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    font-weight: bolder;
+}
+.otherLinks nav ul li a:hover{
+    text-decoration: none;
+    color: #e94154;
+}
+
+.girlcodehackathon{
+    width: 100%;
+    height: 50%;
+    background-image: url(hackathon-header-CBLU6aSL.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.info{
+    margin-top: 65px;
+    margin-bottom: 65px;
+    margin-left: 65px;
+    margin-right: 65px;
+}
+.info p{
+    
+    text-align: center;
+    font-size: 17px;
+}
+.hack2024 h3{
+    text-align: center;
+    font-size: 40px;
+}
+.hack2024{
+    text-align: center;
+}
+.hack2024 button{
+    background-color:#e94154 ;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius:4px;
+    color: white;
+    border-color: #e94154;
+    margin-bottom:100px;
+    height: 40px;
+}
+.content h3{
+    text-align: center;
+    font-size: 40px;
+}
+.winners img{
+    width: 500px;
+    height: 300px;   
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; 
+}
+.grey{
+    background-color: #ececec;
+}
+.girlcodestudents{
+    background-image: url(girlcode_students-BNN1dAjh.webp);
+    background-position: center;
+    height: 250px;
+    display: flex;
+}
+.left{
+    margin-left: 200px;
+    padding-top: 50px;
+}
+.left h3{
+    font-size: 30px;
+    color: white;
+}
+.left p{
+    color: white;
+}
+.right{
+    padding: 100px;
+}
+.right button{
+    width: 150px;
+    height: 40px;
+    color: #e94154;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 4px;
+    border-color: white;
+}
+
+footer{
+    background-color: #e94154;
+    padding: 3% 5%;
+    
+}
+.footContainer{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    color:white;
+    
+}
+.footnav h4{
+    font-weight: bold;
+    margin-top: 0;
+}
+.footnav nav{
+    padding: 0;
+    
+    
+}
+.footnav nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    line-height: 25px;
+    width: 80%;
+    
+}
+.footnav nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+}
+.footrow{
+    width: 420px;
+}
+.footrow1 a img{
+    width:175px;
+    height: fit-content;
+}
+.footrow1 .Copyrite{
+    font-weight: bolder;
+}
+.footSupport{
+    
+    width: 150px;   
+}
+.footCompany  ,.footGInvolved{
+    
+    width: 200px; 
+}
+.footMedia{
+    width: 350px;
+    padding: 25px 0;
+}
+.mediaLogos{
+   
+    margin: 10px 0;
+    
+}
+.mediaLogos ul{
+    
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.mediaLogos ul li{
+    
+    display: inline-block;
+    margin-right: 20px;
+}
+.mediaLogos ul li a img{
+    
+    width: 30px;
+    height: 30px;
+    
+}
+.footMedia button{
+    width: 300px;
+    height: 60px;
+    background-color: white;
+    color: #e94154;
+    font-weight: bolder;
+    border: none;
+    font-size: x-large;
+}

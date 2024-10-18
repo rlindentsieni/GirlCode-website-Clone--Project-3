@@ -1,0 +1,244 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.Header {
+    padding: 0 85px;
+    margin: 0;
+}
+.headPart{
+    
+    display: flex;
+    height:40px;
+    flex-flow: row;
+    padding: 10px 0;
+    gap:640px;
+}
+.logo{
+    
+    width: fit-content;
+    height: fit-content;
+
+}
+.logo a img{
+    width: 180px;
+    height: 37px;
+}
+.otherLinks{
+
+    width: fit-content;
+    height: fit-content;
+    margin-top: 10px;
+    
+}
+.otherLinks nav ul{
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: fit-content;
+    width: fit-content;
+}
+.otherLinks nav ul li{
+
+    display: inline-block;
+    margin-left: 15px;
+}
+.otherLinks nav ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    font-weight: bolder;
+}
+.otherLinks nav ul li a:hover{
+    text-decoration: none;
+    color: #e94154;
+}
+.girlcodestudents{
+    background-image: url(girlcode_students-BNN1dAjh.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40%;
+}
+.left{
+    margin-left: 150px;
+    padding-top: 50px;
+    color: white;
+}
+.left h3{
+    font-size: 56px;
+    font-weight: bold;
+}
+.left p{
+    margin-top: -40px;
+}
+.right{
+    padding-top: 100px;
+}
+.grey{
+    display: flex; 
+    gap: 20px;
+    background-color: #ececec;
+    padding-bottom: 40px;
+}
+.right h3{
+    font-size: 30px;
+    font-weight: lighter;
+}
+.content{
+    text-align: center;
+}
+.content h3{
+    font-size: 36px;
+    font-weight: bold;
+}
+.container{
+    display: flex;
+    gap: 30px;
+    margin-left: 80px;
+}
+.boxes{
+    width: 400px;
+    text-align: center;
+}
+.boxes h3{
+    font-size: 30px;
+    font-weight: lighter;
+}
+.boxes h4{
+    color:#e94154 ;
+    font-weight: lighter;
+}
+.team{
+    background-color: #ececec;
+}
+.center h3{
+    text-align: center;
+    font-size: 36px;
+}
+.center p{
+    text-align: center;
+    margin-top: -30px;
+    margin-bottom: 60px;
+}
+.members{
+    padding: 70px;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    width: fit-content;
+    margin: 10vh auto;
+    
+}
+.members img{
+    width: 250px;
+    height: 300px;
+}
+.borders{
+    border: 1px solid grey;
+    width: 250px;
+    border-radius: 4px;
+    background-color: white;
+}
+.borders h3,p{
+    padding-left: 30px;
+}
+.centered h3{
+    text-align: center;
+    font-size: 36px;
+}
+.centered p{
+    text-align: center;
+    margin-top: -30px;
+}
+
+
+footer{
+    background-color: #e94154;
+    padding: 3% 5%;
+    
+}
+.footContainer{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    color:white;
+    
+}
+.footnav h4{
+    font-weight: bold;
+    margin-top: 0;
+}
+.footnav nav{
+    padding: 0;
+    
+    
+}
+.footnav nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    line-height: 25px;
+    width: 80%;
+    
+}
+.footnav nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+}
+.footrow{
+    width: 420px;
+}
+.footrow1 a img{
+    width:175px;
+    height: fit-content;
+}
+.footrow1 .Copyrite{
+    font-weight: bolder;
+}
+.footSupport{
+    
+    width: 150px;   
+}
+.footCompany  ,.footGInvolved{
+    
+    width: 200px; 
+}
+.footMedia{
+    width: 350px;
+    padding: 25px 0;
+}
+.mediaLogos{
+   
+    margin: 10px 0;
+    
+}
+.mediaLogos ul{
+    
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.mediaLogos ul li{
+    
+    display: inline-block;
+    margin-right: 20px;
+}
+.mediaLogos ul li a img{
+    
+    width: 30px;
+    height: 30px;
+    
+}
+.footMedia button{
+    width: 300px;
+    height: 60px;
+    background-color: white;
+    color: #e94154;
+    font-weight: bolder;
+    border: none;
+    font-size: x-large;
+}

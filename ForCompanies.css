@@ -1,0 +1,467 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.Header {
+    padding: 0 85px;
+    margin: 0;
+}
+.headPart{
+    
+    display: flex;
+    height:40px;
+    flex-flow: row;
+    padding: 10px 0;
+    gap:640px;
+}
+.logo{
+    
+    width: fit-content;
+    height: fit-content;
+
+}
+.logo a img{
+    width: 180px;
+    height: 37px;
+}
+.otherLinks{
+
+    width: fit-content;
+    height: fit-content;
+    margin-top: 10px;
+    
+}
+.otherLinks nav ul{
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: fit-content;
+    width: fit-content;
+}
+.otherLinks nav ul li{
+
+    display: inline-block;
+    margin-left: 15px;
+}
+.otherLinks nav ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    font-weight: bolder;
+}
+.otherLinks nav ul li a:hover{
+    text-decoration: none;
+    color: #e94154;
+}
+/*-------------------------------Intro Part--------------------------------------------*/
+.girlsBack{
+    border: 1px solid white;
+    background-image: url(Girlcode-Saturday-74-min-1.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height:60%;
+}
+.toRed{
+    border: 1px solid #dddddd;
+    width: 100%;
+    height:100%;
+    background-color: #e94154;
+    opacity: 0.5;
+}
+.gText{
+    width: 45%;
+    margin-left: 125px;
+    color: white;
+}
+.girlsBack h1{
+    font-size: 68px;
+    margin-top: 45px;
+}
+.girlsBack p {
+    
+    font-size: 16px;
+    width: 80%;
+}
+.Become{
+    padding: 5% 10%;
+    background-color: #ececec;
+}
+.Btext{
+    text-align: center;
+    font-size: 35px;
+}
+.infoBlock{
+    margin-bottom: 25px;
+    display: flex;
+    gap: 25px;
+    
+}
+.infoBlock .info{
+    flex:50%;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: black;
+}
+.infoBlock .info h3{
+    font-size: 30px;
+    font-weight:normal ;
+    
+}
+.infoBlock .info p{
+    line-height: 25px;
+}
+.infoBlock .pic{
+    flex:50%;
+}
+.infoBlock .pic img{
+    width: 100%;
+}
+
+.partnerLogos{
+    display: flex;
+    flex-flow: column;
+}
+.Ptext{
+    padding: 0 22%;
+    text-align: center;
+}
+.Ptext h3{
+    font-size: 30px;
+}
+.Logos{
+    padding: 0 7%;
+}
+.Logs{
+    
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+.minilogo{
+    width: 175px;
+    height: 75px;
+    padding: 5px;
+}
+.minilogo img{
+    width: 100%;
+    height: 80%;
+}
+.Donors{
+    display: flex;
+    flex-flow: column;
+    background-color: #dddddd;
+    text-align: center;
+    padding: 3%;
+}
+.heading{
+    
+    height: fit-content;
+    width: 100%;
+}
+.heading h3{
+    font-size: 30px;
+}
+
+.DonorL{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    padding: 0 15%;
+}
+.DonorL img{
+    width: 175px;
+    height: 50px;
+}
+.MediaPatners{
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    padding: 3%;
+}
+.Mtext{
+    padding: 0 25%;
+    text-align: center;
+}
+.Mtext h3{
+    font-size: 30px;
+}
+.Media{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 0 35%;
+}
+.Media img{
+    width: 175px;
+    height: 75px;
+}
+
+/*SlideShow*/
+.testimonial{
+    width: 100%;
+    height: 85vh;
+    background-color: #ececec;
+}
+
+.slideshow-container {
+    width: 90%;
+    overflow: hidden;
+    position: relative;
+    margin: auto auto;
+}
+
+.slideshow-wrapper {
+    display: flex;
+    transition: transform 1s ease-in-out;
+}
+.Ttext{
+    text-align: center;
+}
+.Ttext h3{
+    font-size: 40px;
+    margin: 15px 0;
+}
+.Ttext p{
+    margin: 15px 0;
+}
+
+/*SlideShow*/
+
+.slides{
+    margin: 0;
+    padding: 0;
+}
+.slide {
+    min-width: 32%; 
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+    margin: 0 10px;
+    border: #717171 1px solid;
+    border-radius: 5px;
+}
+.slideshow{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:2%;
+}
+
+.userDet{
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    
+}
+.userImg{
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    border: 1px solid #ececec;
+}
+.userImg img{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    object-fit: contain;
+}
+.userNames{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.userDet h4{
+    margin: 0;
+    padding: 0;
+}
+.userDet p{
+    margin: 0;
+    padding: 0;
+}
+
+.navigation-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.dots-container {
+    display: flex;
+    justify-content: center;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.dot.active {
+    background-color: #717171;
+}
+
+.arrow {
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px;
+    user-select: none;
+    background-color: #bbb;
+    border-radius: 50%;
+    margin: 0 10px;
+    transition: background-color 0.3s;
+}
+
+.arrow:hover {
+    background-color: #717171;
+}
+
+
+/**/
+
+.Interested{
+    padding: 3% 32%;
+}
+.InterestBox{
+    background-color: #f5f5f5;
+    width: 100%;
+    height: auto;
+}
+.Itext{
+    text-align: center;
+}
+.Itext h3{
+    font-size: 35px;
+    font-weight: normal;
+    margin: 0;
+}
+.Form{
+    padding: 3%;
+}
+
+.Form label{
+    font-size: 12px;
+    
+}
+.Form input{
+    width: 100%;
+    height: 50px;
+    margin: 3% 0;
+    border-radius: 5px;
+}
+.sendSec{
+    width: 100%;
+    height: 65px;
+    background-color: #ededed;
+    position: relative;
+    
+
+}
+.sendSec button{
+    background-color: #e94154;
+    color: white;
+    border: none;
+    font-weight:bold ;
+    padding: 5px 10px;
+    font-size: larger;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 45%;
+    
+}
+
+footer{
+    background-color: #e94154;
+    padding: 3% 5%;
+    
+}
+.footContainer{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    color:white;
+    
+}
+.footnav h4{
+    font-weight: bold;
+    margin-top: 0;
+}
+.footnav nav{
+    padding: 0;
+    
+    
+}
+.footnav nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    line-height: 25px;
+    width: 80%;
+    
+}
+.footnav nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+}
+.footrow{
+    width: 420px;
+}
+.footrow1 a img{
+    width:175px;
+    height: fit-content;
+}
+.footrow1 .Copyrite{
+    font-weight: bolder;
+}
+.footSupport{
+    
+    width: 150px;   
+}
+.footCompany  ,.footGInvolved{
+    
+    width: 200px; 
+}
+.footMedia{
+    width: 350px;
+    padding: 25px 0;
+}
+.mediaLogos{
+   
+    margin: 10px 0;
+    
+}
+.mediaLogos ul{
+    
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.mediaLogos ul li{
+    
+    display: inline-block;
+    margin-right: 20px;
+}
+.mediaLogos ul li a img{
+    
+    width: 30px;
+    height: 30px;
+    
+}
+.footMedia button{
+    width: 300px;
+    height: 60px;
+    background-color: white;
+    color: #e94154;
+    font-weight: bolder;
+    border: none;
+    font-size: x-large;
+}
