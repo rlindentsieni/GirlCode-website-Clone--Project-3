@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    
+}
+/**/
+.Testimonials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    margin: 0;
+    background-color: #ededed;
+}
+
+.slideshow-container {
+    width: 90%; 
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    background-color: #ededed;
+}
+
+.slideshow-wrapper {
+    display: flex;
+    transition: transform 1s ease-in-out;
+    width: calc(100% * 4 / 3); /* 4 slides, 3 visible */
+}
+
+.slide {
+    width: 25%;
+    margin: 0 12px;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color:white;
+    text-align: center;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    
+}
+.userDet{
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    
+}
+.userImg{
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    border: 1px solid #ececec;
+}
+.userNames{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.userDet h4{
+    margin: 0;
+    padding: 0;
+}
+.userDet p{
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    margin: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.dot.active {
+    background-color: #717171;
+}
